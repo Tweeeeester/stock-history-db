@@ -1,0 +1,28 @@
+
+[project]
+name = "stock-history-db"
+version = "0.1.0"
+description = "A short description of my awesome Python package."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { file = "LICENSE" }
+authors = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "python-dotenv>=1.2.1",
+    "pytest>=8.4.2",
+    "yfinance>=0.2.66",
+    "psycopg[binary]>=3.2.12"
+]
+
+[project.urls]
+Homepage = "https://github.com/Tweeeeester/stock-history-db"
+Repository = "https://github.com/Tweeeeester/stock-history-db"
+Issues = "https://github.com/Tweeeeester/stock-history-db"
+
+[tool.setuptools]
+packages = ["src"] # Or use `find:` for automatic discovery
